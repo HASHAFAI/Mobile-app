@@ -1,0 +1,323 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Start Header */
+
+header {
+    background-image: url(../img/header-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header form {position: relative; top: 25px;}
+header img {
+    height: 140px;
+}
+
+header h5 {
+    color: #fff;
+    font-size: 20px;
+}
+
+header hr {
+    color: #fff !important;
+    height: 3px !important;
+}
+
+.container h3 {
+    font-size: 60px;
+    color: #fff;
+}
+
+@media(max-width:720px) {
+    .container h3 {
+        font-size: 40px;
+    }
+}
+
+header .container p {
+    font-size: 18px;
+    color: #acacac;
+    width: 50%;
+}
+
+@media(max-width:770px) {
+    header .container p {
+        width: 85% !important;
+    }
+}
+
+header .counter {
+    padding: 80px 0 100px 0;
+}
+
+/* تطبيق تنسيقات الخط على الأرقام، وجعلها في أسطر مختلفة */
+
+header .counter .countdown-amount {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffce00;
+    display: block;
+}
+
+/* تطبيق تنسيقات الخط على العامل الزمني، وجعله في أسطر مختلفة */
+
+header .counter .countdown-period {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+}
+
+/* تظهر في خط واحد وتحديد هامش لها count-section جعل جميع عناصر الصنف */
+
+header .counter .countdown-section {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header .container h4 {
+    width: 40%;
+    font-size: 15px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+@media(max-width:720px) {
+    header .container h4 {
+        width: 90%;
+    }
+}
+
+form .input-group {
+    width: 35%;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+@media(max-width:720px) {
+    form .input-group {
+        width: 80%;
+    }
+}
+
+form .input-group input ,
+form .input-group input:focus,
+form .input-group input:hover {
+    box-shadow: none !important;
+    border: #ffce00 solid 2px;
+}
+
+header form .input-group button {
+    background-color: #393939;
+    color: #ffce00 !important;
+    border: #ffce00 solid 2px;
+}
+
+header form .input-group button:hover {
+    color: #393939 !important;
+    background-color: #ffce00;
+}
+
+footer .input-group .alert, header .input-group .alert {
+    font-size: 14px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    border-radius: 5px;
+}
+
+/* End Header */
+
+/* Start Section */
+
+.container section {
+    margin: 65px auto 100px;
+}
+
+.container section .col-sm-10{
+    width: 80% !important;
+}
+
+section h5 {
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 50px;
+}
+
+section .card {
+    border: rgb(63, 67, 68,.1) 2px solid;
+    height: 165px;
+    width: 100%;
+}
+section .card .row i{
+    font-size: 50px;
+}
+section .card .row div.col-3{
+    display: flex;
+    align-items: center;
+}
+footer form .input-group input ,
+footer form .input-group input:focus,
+footer form .input-group input:hover {
+    box-shadow: none !important;
+    border: #393939 solid 1px;
+}
+@media(max-width:768px) {
+    section .card {
+        height: auto;
+    }
+    section .card h5 {
+        font-size: 16px;
+    }
+    .container section .col-sm-10{
+        width:70% !important;
+        margin-left: 13px;
+    }
+    section .card p {font-size: 13px !important;}
+    section .card .row i{
+        font-size: 50px;
+    }
+    section .card .row div.col-3{
+        justify-content: center;
+    }
+}
+
+section .card p {
+    font-size: 15px;
+    color: #a1a1a1;
+}
+
+section .card h5 {
+    font-size: 20px;
+    color: #555;
+}
+
+section .row i {
+    color: #ffce00;
+}
+
+section .row i.fa-3x {
+    display: none;
+}
+
+@media(min-width:768px) and (max-width:960px) {
+    section .row i.fa-3x {
+        display: inline-block;
+    }
+    section .row i.fa-4x {
+        display: none;
+    }
+}
+
+/* End Section */
+
+/* Start Footer */
+
+footer {
+    background-image: url(../img/Untitled-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer .footer-top {
+    background-color: rgb(245, 213, 69, .9);
+    padding-bottom: 40px;
+}
+
+footer .footer-top h5 {
+    font-size: 30px;
+    color: #555;
+    padding: 60px 0 30px;
+}
+
+footer .footer-button {
+    background-color: rgb(0, 0, 0, .7);
+    padding-bottom: 10px;
+}
+
+footer .footer-button h6 {
+    padding-top: 60px;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer form .input-group button {
+    color: #393939 !important;
+    border: #393939 solid 2px;
+}
+
+footer form .input-group button:hover {
+    color: #fff !important;
+    background-color: #393939;
+}
+
+footer .footer-button ul {
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+footer .footer-button li {
+    width: 50px;
+    height: 50px;
+    background-color: #3f4344;
+}
+
+footer .footer-button li:hover {
+    background-color: #ffce00;
+    cursor: pointer;
+}
+
+footer .footer-button a {
+    position: relative;
+    top: 30%;
+}
+
+footer .footer-button i {
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .footer-button hr {
+    position: relative;
+    left: 37%;
+    width: 25%;
+    border: 2px solid rgba(255, 255, 255);
+    /* margin-top: 25px; */
+    align-items: center;
+}
+
+footer .footer-button p {
+    padding-top: 29px;
+}
+
+footer .footer-button p a {
+    color: #b4b4b4;
+}
+
+footer .footer-button p a i {
+    color: #ffce00;
+    margin-right: 5px;
+}
+
+/*تنسيق مسؤول عن درجة نعومة التأثير*/
+
+footer .footer-button ul li a {
+    -webkit-transition: all 0.3s ease;
+    Transition: all 0.3s ease;
+}
+@media(max-width:768px) {
+    footer .footer-top h5 {
+        font-size: 25px;
+    }
+}
+/* End Footer */
+
+/* From work */
+
+.color {
+    color: #ffce00;
+}
