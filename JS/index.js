@@ -1,5 +1,7 @@
 // عند تحميل الصفحة
+
 $(document).ready(function(){
+   new WOW().init();
     // شهر، يوم، ساعة، دقيقة، ثانية odHMS بصيغة countdown إضافة عداد زمني
      var auseDay = new Date();
      auseDay = new Date(auseDay.getFullYear() + 1 , 1 - 1 ,26);
